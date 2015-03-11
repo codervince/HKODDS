@@ -1,0 +1,9 @@
+This application for getting data from HK.
+
+Description files:
+models/HKOddsModel.py - model for this odds. I have corrected some fields. Look. please.
+HKOdds.conf - just describes database settings.
+HKOddsCollector.py - class for collect data from page with XML. You can see all parameters for this script using options -h.
+config.py - handling config file.
+database.py - class for working with database. You can see all parameters for this script using options -h.
+test.sh - just script for testing.
