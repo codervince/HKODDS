@@ -9,7 +9,7 @@
         <string>/Users/vmac/Documents/PROGRAMMING/PY/scrapy/NEWHKODDS/v3/HKOdds/test.sh</string>
     </array>
     <key>StartInterval</key>
-    <integer>60</integer>
+    <integer>120</integer> <!-- seconds -->
     <key>KeepAlive</key>
      <true/>
 </dict>

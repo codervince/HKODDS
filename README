@@ -1,5 +1,8 @@
 This application for getting data from HK.
 
+Location:
+/Users/vmac/Documents/PROGRAMMING/PY/scrapy/NEWHKODDS
+
 Description files:
 models/HKOddsModel.py - model for this odds. I have corrected some fields. Look. please.
 HKOdds.conf - just describes database settings.

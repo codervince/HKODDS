@@ -10,10 +10,11 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+
 #HK odds model implementation.
 class HKOddsModel(Base):
 	__tablename__ = "hk_odds"
-	id = Column(BigInteger, primary_key = True, autoincrement = True, nullable = False) # Unique identificator.
+	id = Column(BigInteger, primary_key = True, autoincrement = True, nullable = False) # Unique ID
 	race_date = Column("racedate", Date, nullable = False) # Race date.
 	race_course_code = Column("racecoursecode", Unicode(2)) # Race course code.
 	race_number = Column("racenumber", Integer) # Race number.
